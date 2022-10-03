@@ -1,9 +1,10 @@
 <?php
 
-$server = "localhost";
-$user = "root";
-$pass = "";
-$database = "web_01";
+// Local development using xampp
+// $server = "localhost";
+// $user = "root";
+// $pass = "";
+// $database = "web_01";
 
 $conn = mysqli_connect($server, $user, $pass, $database);
 
