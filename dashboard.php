@@ -18,7 +18,8 @@ if (!isset($_SESSION['username'])) {
     <title>Dashboard</title>
 </head>
 <body>
-    <?php echo "<h1>Wellcome " . $_SESSION['username'] . "</h1>"; ?>
+    <?php echo "<h1>Welcome " . $_SESSION['username'] . " to the dashboard!</h1>"; ?>
+    <p>This page is still in development. So stay tune here.</p>
     <a href="logout.php">Logout</a>
 </body>
 </html>
